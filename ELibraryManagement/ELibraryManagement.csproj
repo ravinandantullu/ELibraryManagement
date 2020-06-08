@@ -67,9 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AspxPages\AdminLoginPage.aspx" />
-    <Content Include="AspxPages\HomePage.aspx" />
-    <Content Include="AspxPages\LoginPage.aspx" />
+    <Content Include="AspxPages\AdminAuthurManagement.aspx" />
+    <Content Include="AspxPages\AdminBookIssuing.aspx" />
+    <Content Include="AspxPages\AdminLogin.aspx" />
+    <Content Include="AspxPages\AdminPublishManagement.aspx" />
+    <Content Include="AspxPages\Home.aspx" />
+    <Content Include="AspxPages\Login.aspx" />
     <Content Include="AspxPages\SignUp.aspx" />
     <Content Include="AspxPages\UserProfile.aspx" />
     <Content Include="Bootstrap\Css\bootstrap.min.css" />
@@ -1706,26 +1709,47 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AspxPages\AdminLoginPage.aspx.cs">
-      <DependentUpon>AdminLoginPage.aspx</DependentUpon>
+    <Compile Include="AspxPages\AdminAuthurManagement.aspx.cs">
+      <DependentUpon>AdminAuthurManagement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AspxPages\AdminLoginPage.aspx.designer.cs">
-      <DependentUpon>AdminLoginPage.aspx</DependentUpon>
+    <Compile Include="AspxPages\AdminAuthurManagement.aspx.designer.cs">
+      <DependentUpon>AdminAuthurManagement.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AspxPages\HomePage.aspx.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
+    <Compile Include="AspxPages\AdminBookIssuing.aspx.cs">
+      <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AspxPages\HomePage.aspx.designer.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
+    <Compile Include="AspxPages\AdminBookIssuing.aspx.designer.cs">
+      <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AspxPages\LoginPage.aspx.cs">
-      <DependentUpon>LoginPage.aspx</DependentUpon>
+    <Compile Include="AspxPages\AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AspxPages\LoginPage.aspx.designer.cs">
-      <DependentUpon>LoginPage.aspx</DependentUpon>
+    <Compile Include="AspxPages\AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxPages\AdminPublishManagement.aspx.cs">
+      <DependentUpon>AdminPublishManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxPages\AdminPublishManagement.aspx.designer.cs">
+      <DependentUpon>AdminPublishManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxPages\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxPages\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxPages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxPages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="AspxPages\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>

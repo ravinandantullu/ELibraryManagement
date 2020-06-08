@@ -11,7 +11,7 @@ namespace ELibraryManagement.AspxPages
 {
 
 
-    public partial class UserProfile
+    public partial class AdminPublishManagement
     {
 
         /// <summary>

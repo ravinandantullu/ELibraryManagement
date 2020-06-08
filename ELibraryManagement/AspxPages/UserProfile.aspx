@@ -1,4 +1,8 @@
-﻿ <div class="container">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ELibrary.Master" AutoEventWireup="true" CodeBehind="UserProfile.aspx.cs" Inherits="ELibraryManagement.AspxPages.UserProfile" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container">
       <div class="row">
          <div class="col-md-5">
             <div class="card">
@@ -80,3 +84,4 @@
          </div>
       </div>
    </div>
+</asp:Content>
