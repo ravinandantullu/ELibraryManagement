@@ -67,13 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AspxPages\AboutUs.aspx" />
     <Content Include="AspxPages\AdminAuthurManagement.aspx" />
+    <Content Include="AspxPages\AdminBookInventory.aspx" />
     <Content Include="AspxPages\AdminBookIssuing.aspx" />
     <Content Include="AspxPages\AdminLogin.aspx" />
+    <Content Include="AspxPages\AdminMemberManagement.aspx" />
     <Content Include="AspxPages\AdminPublishManagement.aspx" />
     <Content Include="AspxPages\Home.aspx" />
     <Content Include="AspxPages\Login.aspx" />
     <Content Include="AspxPages\SignUp.aspx" />
+    <Content Include="AspxPages\Terms.aspx" />
     <Content Include="AspxPages\UserProfile.aspx" />
     <Content Include="Bootstrap\Css\bootstrap.min.css" />
     <Content Include="Bootstrap\Js\bootstrap.min.js" />
@@ -1709,12 +1713,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AspxPages\AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxPages\AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AspxPages\AdminAuthurManagement.aspx.cs">
       <DependentUpon>AdminAuthurManagement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AspxPages\AdminAuthurManagement.aspx.designer.cs">
       <DependentUpon>AdminAuthurManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxPages\AdminBookInventory.aspx.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxPages\AdminBookInventory.aspx.designer.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="AspxPages\AdminBookIssuing.aspx.cs">
       <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
@@ -1729,6 +1747,13 @@
     </Compile>
     <Compile Include="AspxPages\AdminLogin.aspx.designer.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxPages\AdminMemberManagement.aspx.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxPages\AdminMemberManagement.aspx.designer.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="AspxPages\AdminPublishManagement.aspx.cs">
       <DependentUpon>AdminPublishManagement.aspx</DependentUpon>
@@ -1757,6 +1782,13 @@
     </Compile>
     <Compile Include="AspxPages\SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspxPages\Terms.aspx.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspxPages\Terms.aspx.designer.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
     </Compile>
     <Compile Include="AspxPages\UserProfile.aspx.cs">
       <DependentUpon>UserProfile.aspx</DependentUpon>
